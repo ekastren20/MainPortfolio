@@ -4,7 +4,7 @@ body{
 }
 
 .navbar{
-    background-color: var(--Primary-extra-light);
+    background-color: var(--white);
     position: fixed;
     top: 0;
     right: 0;
@@ -18,22 +18,22 @@ body{
 }
 
 .nav-link{
-    color: var(--Primary) !important;
+    color: var(--main-blue) !important;
 }
 
 .nav-link:hover{
-    color: var(--Primary-light) !important;
-    border-bottom: 2px solid var(--Primary-light);
+    color: var(--main-grey) !important;
+    border-bottom: 2px solid var(--main-grey);
 }
 
 .nav-link.active{
-    color: var(--Secondary-dark) !important;
+    color: var(--main-blue) !important;
     font-weight: bold;
-    border-bottom: 2px solid var(--Secondary-dark);
+    border-bottom: 2px solid var(--main-blue);
 }
 
 .dropdown-menu{
-    background-color: var(--Secondary-light);
+    background-color: var(--main-grey);
 }
 
 .dropdown-item{
@@ -41,7 +41,8 @@ body{
 }
 
 .dropdown-item:hover{
-    background-color: var(--Secondary);
+    background-color: var(--main-blue);
+    color: var(--white)
 }
 
 .hero{
@@ -60,6 +61,7 @@ body{
 .heroImg{
     width: 100%;
     padding: 34px 40px;
+    padding-top: 90px;
 }
 
 @media (max-width: 1200px) {
@@ -122,13 +124,13 @@ body{
 }
 
 .btn-primary{
-    background-color: var(--Primary);
-    border-color: var(--Primary);
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
 }
 
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active{
-    background-color: var(--Primary-light);
-    border-color: var(--Primary-light);
+    background-color: var(--main-grey);
+    border-color: var(--main-grey);
 }
 
 .btn-primary:focus{
